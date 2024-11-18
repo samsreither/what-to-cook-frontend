@@ -1,5 +1,6 @@
 import React from 'react';
-import RecipeCard from '../RecipeCard/RecipeCard'; 
+import RecipeCard from '../RecipeCard/RecipeCard';
+import './Favorites.css';
 
 function Favorites() {
   // Hardcoded favorite recipes
@@ -28,7 +29,7 @@ function Favorites() {
 
   return (
     <div className="favorites">
-      <h2>Here are some of our favorite dishes!</h2>
+      <h2 className="favorites__heading">Here are some of our favorite dishes!</h2>
       <div className="recipe-cards">
         {favoriteRecipes.map((recipe) => (
           <RecipeCard
