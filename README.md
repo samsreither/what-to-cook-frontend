@@ -1,5 +1,8 @@
 # What to Cook (Frontend)
 
+# Link to Project on GH Pages
+https://samsreither.github.io/what-to-cook-frontend/
+
 # Description 
 This project has a search bar on the main page where you can type in 
 ingredients that you have, and you'll be redirected to a page with some
