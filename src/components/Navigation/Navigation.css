@@ -1,0 +1,16 @@
+.header__nav {
+    display: flex;
+    gap: 20px;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    color: #333;
+    font-style: 16px;
+    font-weight: 500;
+    transition: color .3s ease;
+}
+
+.header__nav-link:hover {
+    color: #e94e77;
+}

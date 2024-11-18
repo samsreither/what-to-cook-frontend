@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px 20px;
+    
+}
+
+.header__logo {
+    height: 50px;
+}
+
+.header__logo-link {
+    text-decoration: none;
+}
+
+.header__title {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    flex-grow: 2;
+    margin: 0;
+}

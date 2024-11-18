@@ -1,0 +1,19 @@
+recipe-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-card__image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .recipe-card__title {
+    font-size: 1.2em;
+    margin-top: 10px;
+    color: #333;
+  }
