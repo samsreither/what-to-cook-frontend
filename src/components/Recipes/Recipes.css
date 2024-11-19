@@ -1,0 +1,28 @@
+.recipes__title {
+  text-align: center;
+}
+
+.recipe-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 288px);
+    gap: 40px 20px;
+    margin-top: 20px;
+    justify-content: center;
+    list-style-type: none;
+  }
+
+  @media screen and (max-width: 900px) {
+    .cards__list {
+      grid-template-columns: repeat(auto-fit, 288px);
+    }
+  }
+  
+  @media screen and (max-width: 627px) {
+    .cards {
+      max-width: 288px;
+    }
+  
+    .cards__list {
+      gap:20px;
+    }
+  }

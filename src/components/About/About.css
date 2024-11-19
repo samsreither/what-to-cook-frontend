@@ -1,0 +1,35 @@
+.about {
+    background-color: #f3f3f3;  
+    padding: 50px 20px; 
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .about__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;  
+    border-radius: 10px;  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+  }
+  
+  .about__title {
+    font-size: 2.5rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about__description {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  
+  .about__footer {
+    font-size: 1.2rem;
+    color: #777;
+    text-align: center;
+    font-style: italic;
+  }
