@@ -3,13 +3,14 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 import Navigation from '../Navigation/Navigation';
 import logo from "../../assets/logo.svg";
+import bowl from "../../assets/spoon-bowl.png";
 
 function Header() {
     return (
         <header className="header">
             {/* logo and link to homepage */}
             <Link to="/" className="header_logo-link">
-                <img className="header__logo" alt="logo" src={logo}/>
+                <img className="header__logo" alt="logo" src={bowl}/>
             </Link>
 
             {/* title in the center */}

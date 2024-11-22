@@ -57,7 +57,7 @@ function Recipes() {
 
   return (
     <div className="recipes">
-      <h2 className="recipes__title">Recipes</h2>
+      <h2 className="recipes__title">Dishes to Cook</h2>
       <div className="recipe-cards">
         {console.log(recipes)}
         {recipes.slice(0, 6).map((recipe) => (
